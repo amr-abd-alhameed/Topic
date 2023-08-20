@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { ThemeProvider } from "@material-tailwind/react";
 import Footer from "@/components/Footer";
 import SecondHeader from "@/components/SecondHeader";
+import Main from "@/components/Main";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -14,11 +15,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider>
-          <SecondHeader />
-          {children}
-          <Footer />
-        </ThemeProvider>
+        <Main>
+          <ThemeProvider>
+            <SecondHeader />
+            {children}
+            <Footer />
+          </ThemeProvider>
+        </Main>
       </body>
     </html>
   );
