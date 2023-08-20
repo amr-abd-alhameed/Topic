@@ -1,4 +1,6 @@
-import React from "react";import logo from "../assets/images/faq_graphic.jpg";
+"use client";
+import React from "react";
+import logo from "../assets/images/faq_graphic.jpg";
 import Image from "next/image";
 import { AccordionS } from "./Accordion";
 

@@ -1,4 +1,6 @@
-import Link from "next/link";import React from "react";
+"use client";
+import Link from "next/link";
+import React from "react";
 import { BsBack } from "react-icons/bs";
 import Dropdown from "./Dropdown";
 

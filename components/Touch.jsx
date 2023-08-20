@@ -1,7 +1,5 @@
-import React from "react";
+"use client";import React from "react";
 import Title from "./Title";
-import logo from "../assets/images/map.png";
-import Image from "next/image";
 
 const Touch = () => {
   const data = [

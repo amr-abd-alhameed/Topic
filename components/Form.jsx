@@ -1,10 +1,5 @@
-"use client";import {
-  Card,
-  Input,
-  Checkbox,
-  Button,
-  Typography,
-} from "@material-tailwind/react";
+"use client";
+import { Card, Button } from "@material-tailwind/react";
 
 export function Form() {
   return (

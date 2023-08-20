@@ -1,9 +1,10 @@
-import React from "react";import { Button } from "@material-tailwind/react";
+"use client";
+import React from "react";
+import { Button } from "@material-tailwind/react";
 import { BsSearch } from "react-icons/bs";
 import CardI from "./CardI";
 import CardII from "./CardII";
 import logo from "../assets/images/topics/undraw_Remote_design_team_re_urdx.png";
-
 const Discover = () => {
   return (
     <section className="flex flex-col">

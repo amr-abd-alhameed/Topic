@@ -1,4 +1,6 @@
-import React from "react";import Title from "./Title";
+"use client";
+import React from "react";
+import Title from "./Title";
 import OverLay from "./OverLay";
 import { BsSearch } from "react-icons/bs";
 import { Button } from "@material-tailwind/react";
