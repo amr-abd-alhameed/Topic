@@ -1,5 +1,4 @@
-import React from "react";
-import { Button } from "@material-tailwind/react";
+import React from "react";import { Button } from "@material-tailwind/react";
 import OverLay from "./OverLay";
 import { BsFacebook, BsTwitter, BsPinterest } from "react-icons/bs";
 const CardII = () => {
@@ -18,11 +17,7 @@ const CardII = () => {
           form Page and many other sections and this site if fully featured
         </p>
         <div>
-          <div className="flex flex-col  justify-between mt-8">
-            <Button className="flex items-center justify-center rounded-[50px] px-[26px] text-xl text-white bg-secondary-color w-fit">
-              learn more
-            </Button>
-          </div>
+          <div className="flex flex-col  justify-between mt-8"></div>
           <div className="flex items-center gap-8 mt-48 lg:mt-32 xl:mt-48">
             <p className="font-medium text-xl capitalize">Share</p>
             <div className="flex items-center gap-4">

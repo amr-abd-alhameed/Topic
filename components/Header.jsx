@@ -67,14 +67,7 @@ const Header = () => {
               </Link>
             </li>
 
-            <li>
-              <Dropdown
-                active={active}
-                textOne={"Pages"}
-                textTwo={"listing-topics"}
-                textThree={"contact-form"}
-              />
-            </li>
+            <li></li>
           </ul>
         </nav>
 
@@ -106,12 +99,6 @@ const Header = () => {
             {link}
           </Link>
         ))}{" "}
-        <Dropdown
-          active={active}
-          textOne={"options"}
-          textTwo={"Topics Listing"}
-          textThree={"Contact Form"}
-        />
       </div>
     </div>
   );

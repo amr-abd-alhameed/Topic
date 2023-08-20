@@ -1,5 +1,4 @@
-"use client";
-import Link from "next/link";
+"use client";import Link from "next/link";
 import React from "react";
 import { BsBack } from "react-icons/bs";
 import Dropdown from "./Dropdown";
@@ -54,14 +53,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <div className="mb-[30px]">
-            <Dropdown
-              className={" bg-secondary-color rounded-lg p-2"}
-              textOne={"english"}
-              textTwo={"Topics Listing"}
-              textThree={"Contact Form"}
-            />
-          </div>
+          <div className="mb-[30px]"></div>
           <div className="text-xl font-normal">
             <p className="capitalize">
               copyright 2023{" "}

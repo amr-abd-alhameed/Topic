@@ -1,5 +1,4 @@
-"use client";
-import React from "react";
+"use client";import React from "react";
 import { Button } from "@material-tailwind/react";
 import { BsSearch } from "react-icons/bs";
 import CardI from "./CardI";
@@ -24,9 +23,6 @@ const Discover = () => {
               className="p-[10px] outline-none text-lg w-full max-w-[550px] text-p-color  md:w-[650px] lg:w-[800px]"
               placeholder="Design, code, Marketing, Finance ..."
             ></input>
-            <Button className="flex items-center justify-center rounded-[50px] px-[26px] text-xl text-white bg-secondary-color">
-              Search
-            </Button>
           </div>
         </div>
       </div>

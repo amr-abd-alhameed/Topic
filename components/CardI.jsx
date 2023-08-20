@@ -1,4 +1,5 @@
-"use client";import Image from "next/image";
+"use client";
+import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import React from "react";
 const CardI = ({ logo, spanBG, active }) => {
@@ -32,11 +33,6 @@ const CardI = ({ logo, spanBG, active }) => {
           <Image src={logo} className=" w-full h-auto object-cover" />
         </div>
       </div>
-      {active && (
-        <Button className="flex items-center justify-center rounded-[50px] px-[26px] text-xl text-white bg-secondary-color w-fit">
-          learn more
-        </Button>
-      )}
     </div>
   );
 };

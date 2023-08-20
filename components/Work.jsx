@@ -1,5 +1,4 @@
-"use client";
-import React from "react";
+"use client";import React from "react";
 import Title from "./Title";
 import OverLay from "./OverLay";
 import { BsSearch } from "react-icons/bs";
@@ -51,9 +50,6 @@ const Work = () => {
         </div>
         <div className="flex items-center flex-col sm:flex-row gap-4 justify-center mt-[3rem]">
           <p className="font-normal  text-xl">Want to learn more?</p>
-          <Button className="flex items-center justify-center rounded-[50px] px-[26px] text-xl border-2 border-secondary-color text-white font-normal capitalize bg-transparent w-fit">
-            check out youtube
-          </Button>
         </div>
       </div>
     </section>
