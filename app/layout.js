@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import { ThemeProvider } from "@material-tailwind/react";
+
 import Footer from "@/components/Footer";
 import SecondHeader from "@/components/SecondHeader";
 import Main from "@/components/Main";
@@ -16,11 +16,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Main>
-          <ThemeProvider>
-            <SecondHeader />
-            {children}
-            <Footer />
-          </ThemeProvider>
+          <SecondHeader />
+          {children}
+          <Footer />
         </Main>
       </body>
     </html>
