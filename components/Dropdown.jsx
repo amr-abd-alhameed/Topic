@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+"use client";import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 
 function classNames(...classes) {
