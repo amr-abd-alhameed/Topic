@@ -1,5 +1,4 @@
-"use client";
-import Link from "next/link";
+"use client";import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { BsBack } from "react-icons/bs";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -19,7 +18,7 @@ const Header = () => {
     });
   }, []);
   return (
-    <header
+    <div
       ref={scrollRef}
       className="py-8 z-30 bg-secondary-color lg:bg-transparent fixed top-0 left-0 right-0 "
     >
@@ -113,7 +112,7 @@ const Header = () => {
           textThree={"Contact Form"}
         />
       </div>
-    </header>
+    </div>
   );
 };
 

@@ -1,9 +1,8 @@
-"use client";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@material-tailwind/react";
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SecondHeader from "@/components/SecondHeader";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -16,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider>
-          <Header />
+          <SecondHeader />
           {children}
           <Footer />
         </ThemeProvider>
