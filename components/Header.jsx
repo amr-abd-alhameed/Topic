@@ -1,4 +1,5 @@
-"use client";import Link from "next/link";
+"use client";
+import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { BsBack } from "react-icons/bs";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -35,9 +36,9 @@ const Header = () => {
             <li>
               <Link
                 href="/"
-                className="hover:text-[#13547a] cursor-pointer transition-colors duration-200"
+                className="hover:text-[#13547a] capitalize cursor-pointer transition-colors duration-200"
               >
-                Home
+                home
               </Link>
             </li>
 
