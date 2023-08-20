@@ -1,4 +1,5 @@
-"use client";import React from "react";
+"use client";
+import React from "react";
 import Link from "next/link";
 import Title from "@/components/Title";
 
@@ -12,7 +13,7 @@ const Topics = ({ children }) => {
           <ul className="flex gap-4 items-center justify-center">
             {Links.map((link) => (
               <li key={link} className="cursor-pointer">
-                <Link href={`/${link}`}> {link}</Link>
+                <Link href={`/${link}`}> {link}""</Link>
               </li>
             ))}
           </ul>
