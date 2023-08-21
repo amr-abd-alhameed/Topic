@@ -15,7 +15,7 @@ const Discover = () => {
           <p className="text-primary text-lg md:text-xl lg:text-2xl font-semibold">
             platform for creatives around the world
           </p>
-          <div className="flex gap-4 items-center justify-between rounded-[50px] bg-white py-4 w-full px-[30px] ">
+          <div className="flex gap-4 items-center  rounded-[50px] bg-white py-4 w-full px-[30px] ">
             <span>
               <BsSearch className="text-2xl" />
             </span>
