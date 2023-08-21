@@ -1,6 +1,7 @@
-"use client";import React from "react";
+"use client";
+import React from "react";
 const Main = ({ props }) => {
-  return <main>{props.children}</main>;
+  return <main>{props.Children}</main>;
 };
 
 export default Main;
